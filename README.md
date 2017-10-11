@@ -63,6 +63,8 @@ When directory processing is complete, the artist and album lists are iterated t
 7.) User is running at least Python 2.7.
 8.) User is running Bash 4.3 or later.
 9.) User is running the scripts in an Ubuntu environment.
+10.) There will be no files in the directory and subdirectories that contain the filename pattern ".ogg" other than the Ogg Vorbis music files the user intends to process.
+
 
 ## Built With
 
