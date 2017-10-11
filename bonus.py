@@ -6,11 +6,11 @@ import os, sys, glob, subprocess
 
 print("Total Tracks: ",end='')
 sys.stdout.flush()
-subprocess.call('find . -type f | grep ogg | wc -l',shell=True)
+subprocess.call('find . -type f | grep \.ogg | wc -l',shell=True)
 
 print("\nTotal Artists: ",end='')
 sys.stdout.flush()
-subprocess.call("find . -type f | grep ogg | cut -f3 -d '/' | sort -u | wc -l",shell=True)
+subprocess.call("find . -type f | grep \.ogg | cut -f3 -d '/' | sort -u | wc -l",shell=True)
 
 print("\n")
 
