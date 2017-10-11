@@ -68,12 +68,12 @@ When directory processing is complete, the artist and album lists are iterated t
 
 ## Built With
 
-Ubuntu 16.04
-Python 2.7.12
-GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
-JetBrains Pycharm 2017.2.3
-VIM - Vi IMproved 7.4
-gedit - Version 3.18.3
+* Ubuntu 16.04
+* Python 2.7.12
+* GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+* JetBrains Pycharm 2017.2.3
+* VIM - Vi IMproved 7.4
+* gedit - Version 3.18.3
 
 
 
