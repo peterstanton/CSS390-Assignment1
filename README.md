@@ -66,6 +66,7 @@ When directory processing is complete, the artist and album lists are iterated t
 * User is running Bash 4.3 or later.
 * User is running the scripts in an Ubuntu environment.
 * There will be no files in the directory and subdirectories that contain the filename pattern ".ogg" other than the Ogg Vorbis music files the user intends to process.
+* Because of difficulties with Husky OnNet, this was tested on a virtual machine running Ubuntu 16.04
 
 
 ## Built With
