@@ -26,6 +26,8 @@ Invoke the base case script by typing: "./PeterStanton-Assignment1-base.sh"
 
 Invoke the bonus script by typing: "python bonus.py"
 
+It may be necessary to invoke chmod +rwx to grant permissions to the file.
+
 ### Break down into end to end tests
 
 BASE:
