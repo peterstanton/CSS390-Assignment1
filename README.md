@@ -28,9 +28,9 @@ Invoke the bonus script by typing: "python bonus.py"
 
 It may be necessary to invoke chmod +rwx to grant permissions to the file.
 
-### Break down into end to end tests
+## Break down into end to end tests
 
-BASE:
+### BASE:
 
 This file is a bash script.
 
@@ -44,7 +44,7 @@ in the format: "genre/artist", which are sorted into unique entries. The names o
 Some albums have more than one disk. In those cases, the fourth field is occupied by disk and a number. By cutting out the album, disk field, and song of all songs, and searching for a regular expression pattern of the word disk together with a number, all multiple disk song entries can be identified. Then the results are piped to cut to remove the disk number and song names, leaving only album names. Duplicates are removed and the results are printed.
 
 
-BONUS:
+### BONUS:
 
 The first two results are simple. Python can invoke bash subprocesses, which is adequate to again find the total tracks and artists.
 
