@@ -54,16 +54,16 @@ When directory processing is complete, the artist and album lists are iterated t
 
 ## Assumptions 
 
-1.) Any test data used will follow the same subdirectory format, with all files in the leaf folders. 
-2.) Test data will follow the same structure of genre/artist/album/possibly disk#/*.ogg
-3.) All test data used will be .OGG files.
-4.) Minor whitespace differences are acceptable.
-5.) Script files are not intended to count towards the totals of files in the directories.
-6.) We will never have an album with a name matching this regex pattern: [dD]isk\s*[1-9]
-7.) User is running at least Python 2.7.
-8.) User is running Bash 4.3 or later.
-9.) User is running the scripts in an Ubuntu environment.
-10.) There will be no files in the directory and subdirectories that contain the filename pattern ".ogg" other than the Ogg Vorbis music files the user intends to process.
+* Any test data used will follow the same subdirectory format, with all files in the leaf folders. 
+* Test data will follow the same structure of genre/artist/album/possibly disk#/*.ogg
+* All test data used will be .OGG files.
+* Minor whitespace differences are acceptable.
+* Script files are not intended to count towards the totals of files in the directories.
+* We will never have an album with a name matching this regex pattern: [dD]isk\s*[1-9]
+* User is running at least Python 2.7.
+* User is running Bash 4.3 or later.
+* User is running the scripts in an Ubuntu environment.
+* There will be no files in the directory and subdirectories that contain the filename pattern ".ogg" other than the Ogg Vorbis music files the user intends to process.
 
 
 ## Built With
